@@ -1,0 +1,705 @@
+{
+  "disclaimer": "Nutritional values are estimates based on Indian Food Composition Tables (IFCT 2017, ICMR-NIN) and documented composite recipe references. Street food recipes, portion sizes, deep-frying oil uptake, and butter/ghee additions vary significantly across vendors and regions.",
+  "foods": {
+    "Vada Pav": {
+      "id": "vada_pav",
+      "name": "Vada Pav",
+      "category": "Snack / Fast Food",
+      "serving_description": "1 spiced potato batata vada in a pav bread bun with garlic-chili dry chutney and green chutney",
+      "servings": {
+        "Small": {
+          "serving_weight_g": 90,
+          "calories": 210,
+          "protein": 4.2,
+          "carbohydrates": 31.5,
+          "fat": 7.6,
+          "fiber": 2.1
+        },
+        "Regular": {
+          "serving_weight_g": 135,
+          "calories": 305,
+          "protein": 6.3,
+          "carbohydrates": 45.8,
+          "fat": 11.2,
+          "fiber": 3.2
+        },
+        "Large": {
+          "serving_weight_g": 200,
+          "calories": 450,
+          "protein": 9.4,
+          "carbohydrates": 68.0,
+          "fat": 16.5,
+          "fiber": 4.8
+        }
+      },
+      "data_source": "IFCT 2017 (ICMR-NIN) & FSSAI Cooked Foods Reference",
+      "source_reference": "NIN IFCT 2017 Code: C001 (Potato), B001 (Wheat Flour Bread); Composite snack estimation",
+      "notes_uncertainty": "Deep frying oil absorption in the chickpea flour batter (besan coating) varies between 8% to 15% by total weight depending on oil frying temperature."
+    },
+    "Pav Bhaji": {
+      "id": "pav_bhaji",
+      "name": "Pav Bhaji",
+      "category": "Main Dish / Street Food",
+      "serving_description": "Spiced mashed vegetable curry (potato, tomato, peas, capsicum) served with toasted buttered pav",
+      "servings": {
+        "Small": {
+          "serving_weight_g": 220,
+          "calories": 380,
+          "protein": 7.5,
+          "carbohydrates": 52.0,
+          "fat": 16.0,
+          "fiber": 5.4
+        },
+        "Regular": {
+          "serving_weight_g": 320,
+          "calories": 550,
+          "protein": 11.0,
+          "carbohydrates": 76.0,
+          "fat": 23.0,
+          "fiber": 8.1
+        },
+        "Large": {
+          "serving_weight_g": 450,
+          "calories": 780,
+          "protein": 15.2,
+          "carbohydrates": 108.0,
+          "fat": 33.0,
+          "fiber": 11.5
+        }
+      },
+      "data_source": "IFCT 2017 (ICMR-NIN) & Dietary Guidelines for Indians (NIN 2024)",
+      "source_reference": "Composite formulation: Potatoes (C001), Tomatoes (D067), Green Peas (A015), Butter (H001)",
+      "notes_uncertainty": "Street vendor variations frequently add between 15g to 40g of additional table butter per plate during griddle finishing."
+    },
+    "Misal Pav": {
+      "id": "misal_pav",
+      "name": "Misal Pav",
+      "category": "Spicy Breakfast / Snack",
+      "serving_description": "Sprouted moth beans curry topped with spicy gravy (kat/tarri), farsan, onions, coriander, served with pav",
+      "servings": {
+        "Small": {
+          "serving_weight_g": 250,
+          "calories": 360,
+          "protein": 12.0,
+          "carbohydrates": 54.0,
+          "fat": 11.0,
+          "fiber": 7.0
+        },
+        "Regular": {
+          "serving_weight_g": 380,
+          "calories": 520,
+          "protein": 17.5,
+          "carbohydrates": 78.0,
+          "fat": 16.5,
+          "fiber": 10.2
+        },
+        "Large": {
+          "serving_weight_g": 520,
+          "calories": 710,
+          "protein": 24.0,
+          "carbohydrates": 105.0,
+          "fat": 23.0,
+          "fiber": 14.1
+        }
+      },
+      "data_source": "IFCT 2017 (ICMR-NIN)",
+      "source_reference": "Sprouted Moth Bean (Phaseolus aconitifolius, B014), Farsan/Sev composite",
+      "notes_uncertainty": "The lipid concentration is predominantly governed by the floating oil layer (tarri) and fried farsan topping."
+    },
+    "Pani Puri": {
+      "id": "pani_puri",
+      "name": "Pani Puri",
+      "category": "Chaat",
+      "serving_description": "Hollow crisp puris filled with spiced potato/chickpea mixture and flavored mint-tamarind water (6 pcs regular)",
+      "servings": {
+        "Small": {
+          "serving_weight_g": 120,
+          "calories": 140,
+          "protein": 3.0,
+          "carbohydrates": 26.0,
+          "fat": 3.2,
+          "fiber": 2.2
+        },
+        "Regular": {
+          "serving_weight_g": 180,
+          "calories": 210,
+          "protein": 4.5,
+          "carbohydrates": 38.5,
+          "fat": 4.8,
+          "fiber": 3.4
+        },
+        "Large": {
+          "serving_weight_g": 260,
+          "calories": 310,
+          "protein": 6.8,
+          "carbohydrates": 57.0,
+          "fat": 7.1,
+          "fiber": 5.0
+        }
+      },
+      "data_source": "IFCT 2017 (ICMR-NIN) & Chaat Analysis",
+      "source_reference": "Semolina/Wheat puri (B001), Mint/Coriander herbs, Tamarind pulp (F026)",
+      "notes_uncertainty": "Puri thickness and sweetness ratio of meetha pani (tamarind jaggery water vs teekha pani) alters simple carbohydrate content."
+    },
+    "Bhel Puri": {
+      "id": "bhel_puri",
+      "name": "Bhel Puri",
+      "category": "Chaat",
+      "serving_description": "Puffed rice, diced vegetables, papdi, roasted peanuts, sev, tossed in tangy tamarind and mint chutneys",
+      "servings": {
+        "Small": {
+          "serving_weight_g": 130,
+          "calories": 180,
+          "protein": 4.2,
+          "carbohydrates": 33.0,
+          "fat": 4.0,
+          "fiber": 2.8
+        },
+        "Regular": {
+          "serving_weight_g": 190,
+          "calories": 270,
+          "protein": 6.1,
+          "carbohydrates": 49.5,
+          "fat": 6.0,
+          "fiber": 4.2
+        },
+        "Large": {
+          "serving_weight_g": 270,
+          "calories": 390,
+          "protein": 8.8,
+          "carbohydrates": 71.0,
+          "fat": 8.8,
+          "fiber": 6.0
+        }
+      },
+      "data_source": "IFCT 2017 (ICMR-NIN)",
+      "source_reference": "Puffed Rice (A007), Chickpea Sev (B003), Groundnut (D002)",
+      "notes_uncertainty": "Proportion of fried sev/papdi versus puffed rice and sweet jaggery chutney dictates fat and sugar levels."
+    },
+    "Sev Puri": {
+      "id": "sev_puri",
+      "name": "Sev Puri",
+      "category": "Chaat",
+      "serving_description": "Crisp flat papdis layered with diced potato, onions, three chutneys, and a heavy cover of gram flour sev (6 pcs regular)",
+      "servings": {
+        "Small": {
+          "serving_weight_g": 140,
+          "calories": 220,
+          "protein": 4.8,
+          "carbohydrates": 32.0,
+          "fat": 8.5,
+          "fiber": 2.5
+        },
+        "Regular": {
+          "serving_weight_g": 200,
+          "calories": 320,
+          "protein": 7.0,
+          "carbohydrates": 46.0,
+          "fat": 12.5,
+          "fiber": 3.8
+        },
+        "Large": {
+          "serving_weight_g": 280,
+          "calories": 450,
+          "protein": 9.8,
+          "carbohydrates": 65.0,
+          "fat": 18.0,
+          "fiber": 5.2
+        }
+      },
+      "data_source": "IFCT 2017 & Standard Chaat Reference",
+      "source_reference": "Gram flour fried sev, refined wheat papdi, potato, chutneys",
+      "notes_uncertainty": "High variation based on quantity of fried sev garnished on top."
+    },
+    "Dabeli": {
+      "id": "dabeli",
+      "name": "Dabeli",
+      "category": "Snack",
+      "serving_description": "Sweet and spicy potato mash with roasted masala peanuts, pomegranate pearls, sev in a toasted pav bun",
+      "servings": {
+        "Small": {
+          "serving_weight_g": 110,
+          "calories": 240,
+          "protein": 5.1,
+          "carbohydrates": 38.0,
+          "fat": 8.0,
+          "fiber": 2.9
+        },
+        "Regular": {
+          "serving_weight_g": 160,
+          "calories": 350,
+          "protein": 7.5,
+          "carbohydrates": 54.0,
+          "fat": 12.0,
+          "fiber": 4.2
+        },
+        "Large": {
+          "serving_weight_g": 230,
+          "calories": 500,
+          "protein": 11.0,
+          "carbohydrates": 77.0,
+          "fat": 17.5,
+          "fiber": 6.0
+        }
+      },
+      "data_source": "IFCT 2017 (ICMR-NIN) & Regional Street Recipe Composite",
+      "source_reference": "Pav bread, potato, roasted peanuts (D002), sweet chutney, sev",
+      "notes_uncertainty": "Butter toasted on tawa adds roughly 5-10g fat per dabeli bun."
+    },
+    "Samosa": {
+      "id": "samosa",
+      "name": "Samosa",
+      "category": "Fried Snack",
+      "serving_description": "Crispy deep-fried triangular pastry stuffed with spiced potatoes, green peas, and whole spices (1 piece regular)",
+      "servings": {
+        "Small": {
+          "serving_weight_g": 70,
+          "calories": 185,
+          "protein": 3.2,
+          "carbohydrates": 22.0,
+          "fat": 9.5,
+          "fiber": 1.8
+        },
+        "Regular": {
+          "serving_weight_g": 110,
+          "calories": 290,
+          "protein": 5.1,
+          "carbohydrates": 34.5,
+          "fat": 15.0,
+          "fiber": 2.9
+        },
+        "Large": {
+          "serving_weight_g": 160,
+          "calories": 420,
+          "protein": 7.4,
+          "carbohydrates": 50.0,
+          "fat": 22.0,
+          "fiber": 4.2
+        }
+      },
+      "data_source": "IFCT 2017 (ICMR-NIN)",
+      "source_reference": "IFCT Cooked Snacks - Refined flour (Maida B002), Potato (C001), Oil absorption ~14%",
+      "notes_uncertainty": "Oil retention depends on dough ghee/shortening (moyen) and frying temperature."
+    },
+    "Kachori": {
+      "id": "kachori",
+      "name": "Kachori",
+      "category": "Fried Snack",
+      "serving_description": "Flaky deep-fried round pastry stuffed with spiced yellow moong dal or urad dal mixture",
+      "servings": {
+        "Small": {
+          "serving_weight_g": 65,
+          "calories": 200,
+          "protein": 4.5,
+          "carbohydrates": 23.0,
+          "fat": 10.5,
+          "fiber": 2.0
+        },
+        "Regular": {
+          "serving_weight_g": 100,
+          "calories": 310,
+          "protein": 7.0,
+          "carbohydrates": 35.0,
+          "fat": 16.5,
+          "fiber": 3.2
+        },
+        "Large": {
+          "serving_weight_g": 150,
+          "calories": 465,
+          "protein": 10.5,
+          "carbohydrates": 53.0,
+          "fat": 24.5,
+          "fiber": 4.8
+        }
+      },
+      "data_source": "IFCT 2017 (ICMR-NIN)",
+      "source_reference": "Moong Dal (B011), Refined Wheat Flour (B002), Vegetable Oil (E001)",
+      "notes_uncertainty": "Higher protein than potato-filled snacks due to split pulse stuffing, but significant deep-fry lipid content."
+    },
+    "Dosa": {
+      "id": "dosa",
+      "name": "Dosa",
+      "category": "South Indian / Crepe",
+      "serving_description": "Crisp fermented rice and black gram crepe, served with sambar and coconut chutney",
+      "servings": {
+        "Small": {
+          "serving_weight_g": 140,
+          "calories": 190,
+          "protein": 4.8,
+          "carbohydrates": 32.0,
+          "fat": 5.0,
+          "fiber": 2.2
+        },
+        "Regular": {
+          "serving_weight_g": 220,
+          "calories": 300,
+          "protein": 7.5,
+          "carbohydrates": 50.0,
+          "fat": 8.0,
+          "fiber": 3.5
+        },
+        "Large": {
+          "serving_weight_g": 320,
+          "calories": 440,
+          "protein": 11.0,
+          "carbohydrates": 73.0,
+          "fat": 12.0,
+          "fiber": 5.1
+        }
+      },
+      "data_source": "IFCT 2017 (ICMR-NIN)",
+      "source_reference": "Rice (A001), Black gram dal (B009), Sesame/Vegetable oil",
+      "notes_uncertainty": "Ghee roast or butter roast preparation can raise total calories by 120-200 kcal over plain oil griddling."
+    },
+    "Idli": {
+      "id": "idli",
+      "name": "Idli",
+      "category": "South Indian / Steamed",
+      "serving_description": "Steamed savory cakes made from fermented batter of de-husked black lentils and rice (2 pcs regular)",
+      "servings": {
+        "Small": {
+          "serving_weight_g": 80,
+          "calories": 105,
+          "protein": 3.6,
+          "carbohydrates": 22.0,
+          "fat": 0.5,
+          "fiber": 1.4
+        },
+        "Regular": {
+          "serving_weight_g": 130,
+          "calories": 170,
+          "protein": 5.8,
+          "carbohydrates": 35.5,
+          "fat": 0.8,
+          "fiber": 2.3
+        },
+        "Large": {
+          "serving_weight_g": 200,
+          "calories": 260,
+          "protein": 9.0,
+          "carbohydrates": 54.0,
+          "fat": 1.2,
+          "fiber": 3.6
+        }
+      },
+      "data_source": "IFCT 2017 (ICMR-NIN)",
+      "source_reference": "NIN IFCT 2017 Standard Cooked Foods: Idli fermented steamed composite",
+      "notes_uncertainty": "Pure steamed food with minimal inherent fat. Nutritional impact often depends on accompanying coconut chutney or ghee."
+    },
+    "Medu Vada": {
+      "id": "medu_vada",
+      "name": "Medu Vada",
+      "category": "South Indian / Fried",
+      "serving_description": "Crisp doughnut-shaped fritters made from spiced black gram (urad dal) batter (2 pcs regular)",
+      "servings": {
+        "Small": {
+          "serving_weight_g": 70,
+          "calories": 165,
+          "protein": 6.2,
+          "carbohydrates": 18.0,
+          "fat": 7.8,
+          "fiber": 2.6
+        },
+        "Regular": {
+          "serving_weight_g": 115,
+          "calories": 270,
+          "protein": 10.2,
+          "carbohydrates": 29.5,
+          "fat": 12.8,
+          "fiber": 4.2
+        },
+        "Large": {
+          "serving_weight_g": 170,
+          "calories": 400,
+          "protein": 15.0,
+          "carbohydrates": 44.0,
+          "fat": 19.0,
+          "fiber": 6.3
+        }
+      },
+      "data_source": "IFCT 2017 (ICMR-NIN)",
+      "source_reference": "Urad Dal (B009), Onion, Peppercorn, Deep frying oil absorption",
+      "notes_uncertainty": "Lentil batter naturally provides substantial protein, but porous structure absorbs frying oil if oil temperature drops below 175°C."
+    },
+    "Poha": {
+      "id": "poha",
+      "name": "Poha",
+      "category": "Breakfast / Snack",
+      "serving_description": "Flattened rice tempered with mustard seeds, turmeric, green chilies, onions, roasted peanuts, and lemon",
+      "servings": {
+        "Small": {
+          "serving_weight_g": 130,
+          "calories": 180,
+          "protein": 4.2,
+          "carbohydrates": 30.5,
+          "fat": 5.0,
+          "fiber": 2.4
+        },
+        "Regular": {
+          "serving_weight_g": 200,
+          "calories": 275,
+          "protein": 6.4,
+          "carbohydrates": 47.0,
+          "fat": 7.5,
+          "fiber": 3.6
+        },
+        "Large": {
+          "serving_weight_g": 300,
+          "calories": 410,
+          "protein": 9.6,
+          "carbohydrates": 70.0,
+          "fat": 11.5,
+          "fiber": 5.4
+        }
+      },
+      "data_source": "IFCT 2017 (ICMR-NIN)",
+      "source_reference": "Rice flakes/Flatted Rice (A006), Peanut (D002), Mustard, Turmeric",
+      "notes_uncertainty": "Peanut quantity and tempering oil volume cause most variance in total calories and monounsaturated fatty acids."
+    },
+    "Upma": {
+      "id": "upma",
+      "name": "Upma",
+      "category": "Breakfast / Porridge",
+      "serving_description": "Thick roasted semolina porridge seasoned with mustard seeds, ginger, curry leaves, and vegetables",
+      "servings": {
+        "Small": {
+          "serving_weight_g": 140,
+          "calories": 175,
+          "protein": 4.0,
+          "carbohydrates": 31.0,
+          "fat": 4.2,
+          "fiber": 1.9
+        },
+        "Regular": {
+          "serving_weight_g": 220,
+          "calories": 270,
+          "protein": 6.3,
+          "carbohydrates": 48.0,
+          "fat": 6.5,
+          "fiber": 3.0
+        },
+        "Large": {
+          "serving_weight_g": 320,
+          "calories": 390,
+          "protein": 9.2,
+          "carbohydrates": 70.0,
+          "fat": 9.5,
+          "fiber": 4.4
+        }
+      },
+      "data_source": "IFCT 2017 (ICMR-NIN)",
+      "source_reference": "Semolina/Suji (B003), Ghee/Oil, Mustard (E006), Vegetables",
+      "notes_uncertainty": "Roasting medium (ghee vs refined oil) significantly affects saturated fat proportion."
+    },
+    "Chole Bhature": {
+      "id": "chole_bhature",
+      "name": "Chole Bhature",
+      "category": "Main Dish",
+      "serving_description": "Spicy tangy chickpea curry served with 2 deep-fried puffed sourdough breads (bhature), pickles, and onions",
+      "servings": {
+        "Small": {
+          "serving_weight_g": 280,
+          "calories": 520,
+          "protein": 14.5,
+          "carbohydrates": 68.0,
+          "fat": 22.0,
+          "fiber": 7.5
+        },
+        "Regular": {
+          "serving_weight_g": 420,
+          "calories": 780,
+          "protein": 22.0,
+          "carbohydrates": 102.0,
+          "fat": 33.0,
+          "fiber": 11.2
+        },
+        "Large": {
+          "serving_weight_g": 600,
+          "calories": 1100,
+          "protein": 31.0,
+          "carbohydrates": 145.0,
+          "fat": 47.0,
+          "fiber": 16.0
+        }
+      },
+      "data_source": "IFCT 2017 (ICMR-NIN) & North Indian Composite Recipe",
+      "source_reference": "Chickpea/Kabuli Chana (B006), Refined Wheat Flour (B002), Deep-frying oil",
+      "notes_uncertainty": "Bhature diameter, oil drainage, and ghee tadka in chole create substantial caloric variation (+/- 25%)."
+    },
+    "Aloo Tikki": {
+      "id": "aloo_tikki",
+      "name": "Aloo Tikki",
+      "category": "Chaat / Patty",
+      "serving_description": "Crisp shallow-fried potato croquettes topped with curd (dahi), sweet tamarind chutney, and green chutney (2 pcs regular)",
+      "servings": {
+        "Small": {
+          "serving_weight_g": 130,
+          "calories": 200,
+          "protein": 4.0,
+          "carbohydrates": 31.0,
+          "fat": 7.0,
+          "fiber": 2.6
+        },
+        "Regular": {
+          "serving_weight_g": 200,
+          "calories": 310,
+          "protein": 6.2,
+          "carbohydrates": 48.0,
+          "fat": 11.0,
+          "fiber": 4.0
+        },
+        "Large": {
+          "serving_weight_g": 290,
+          "calories": 445,
+          "protein": 9.0,
+          "carbohydrates": 69.0,
+          "fat": 16.0,
+          "fiber": 5.8
+        }
+      },
+      "data_source": "IFCT 2017 (ICMR-NIN)",
+      "source_reference": "Potato (C001), Curd/Yogurt (G001), Tamarind (F026), Cornstarch",
+      "notes_uncertainty": "Shallow frying vs deep frying and sweetened curd toppings alter both fat and sugar contents."
+    },
+    "Frankie": {
+      "id": "frankie",
+      "name": "Frankie",
+      "category": "Roll / Wrap",
+      "serving_description": "Spiced vegetable/paneer filling rolled inside a thin roti wrapped with onion vinegar relish and chaat masala",
+      "servings": {
+        "Small": {
+          "serving_weight_g": 140,
+          "calories": 230,
+          "protein": 6.2,
+          "carbohydrates": 36.0,
+          "fat": 7.2,
+          "fiber": 3.1
+        },
+        "Regular": {
+          "serving_weight_g": 210,
+          "calories": 350,
+          "protein": 9.5,
+          "carbohydrates": 54.0,
+          "fat": 11.2,
+          "fiber": 4.8
+        },
+        "Large": {
+          "serving_weight_g": 300,
+          "calories": 500,
+          "protein": 14.0,
+          "carbohydrates": 78.0,
+          "fat": 16.0,
+          "fiber": 6.8
+        }
+      },
+      "data_source": "IFCT 2017 & Indian Street Food Rolls Analysis",
+      "source_reference": "Wheat Flatbread (B001), Vegetables/Potato/Paneer composite, Spices",
+      "notes_uncertainty": "Filling variation (potato cutlet base vs paneer or cheese additions) causes 100-150 kcal variance."
+    },
+    "Sandwich": {
+      "id": "sandwich",
+      "name": "Bombay Veg Sandwich",
+      "category": "Street Sandwich",
+      "serving_description": "White bread layered with mint chutney, sliced beetroot, potato, cucumber, tomato, onion, and sandwich masala (toasted with butter)",
+      "servings": {
+        "Small": {
+          "serving_weight_g": 140,
+          "calories": 210,
+          "protein": 4.8,
+          "carbohydrates": 33.0,
+          "fat": 7.0,
+          "fiber": 3.0
+        },
+        "Regular": {
+          "serving_weight_g": 210,
+          "calories": 315,
+          "protein": 7.2,
+          "carbohydrates": 49.0,
+          "fat": 10.5,
+          "fiber": 4.5
+        },
+        "Large": {
+          "serving_weight_g": 300,
+          "calories": 460,
+          "protein": 10.5,
+          "carbohydrates": 72.0,
+          "fat": 15.5,
+          "fiber": 6.5
+        }
+      },
+      "data_source": "IFCT 2017 (ICMR-NIN)",
+      "source_reference": "White bread (B001), Butter (H001), Fresh salad vegetables (Beetroot D008, Cucumber D023, Tomato D067)",
+      "notes_uncertainty": "Toasted vs cold sandwich; addition of processed cheddar/amul cheese adds approx 90 kcal and 7g fat."
+    },
+    "Jalebi": {
+      "id": "jalebi",
+      "name": "Jalebi",
+      "category": "Sweet / Dessert",
+      "serving_description": "Spiral-shaped fermented flour batter deep-fried in oil/ghee and soaked in saffron cardamom sugar syrup (3-4 pcs regular)",
+      "servings": {
+        "Small": {
+          "serving_weight_g": 60,
+          "calories": 210,
+          "protein": 1.6,
+          "carbohydrates": 41.0,
+          "fat": 4.8,
+          "fiber": 0.3
+        },
+        "Regular": {
+          "serving_weight_g": 100,
+          "calories": 350,
+          "protein": 2.8,
+          "carbohydrates": 68.0,
+          "fat": 8.0,
+          "fiber": 0.5
+        },
+        "Large": {
+          "serving_weight_g": 160,
+          "calories": 560,
+          "protein": 4.5,
+          "carbohydrates": 109.0,
+          "fat": 12.8,
+          "fiber": 0.8
+        }
+      },
+      "data_source": "IFCT 2017 (ICMR-NIN)",
+      "source_reference": "NIN IFCT 2017 Cooked Sweets: Jalebi (Maida, Sugar cane sucrose F001, Ghee/Oil)",
+      "notes_uncertainty": "Sugar syrup soaking duration and whether fried in desi ghee vs hydrogenated vegetable oil heavily affects fat and caloric density."
+    },
+    "Other / Unknown Food": {
+      "id": "other_unknown",
+      "name": "Other / Unknown Food",
+      "category": "Unclassified",
+      "serving_description": "Food item not recognized with sufficient statistical confidence or outside the current 19 street food classes",
+      "servings": {
+        "Small": {
+          "serving_weight_g": null,
+          "calories": null,
+          "protein": null,
+          "carbohydrates": null,
+          "fat": null,
+          "fiber": null
+        },
+        "Regular": {
+          "serving_weight_g": null,
+          "calories": null,
+          "protein": null,
+          "carbohydrates": null,
+          "fat": null,
+          "fiber": null
+        },
+        "Large": {
+          "serving_weight_g": null,
+          "calories": null,
+          "protein": null,
+          "carbohydrates": null,
+          "fat": null,
+          "fiber": null
+        }
+      },
+      "data_source": "N/A",
+      "source_reference": "Out-of-distribution or uncertain classification",
+      "notes_uncertainty": "Nutritional estimation is withheld to prevent incorrect dietary tracking for unverified or unknown items."
+    }
+  }
+}

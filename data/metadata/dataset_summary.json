@@ -1,0 +1,36 @@
+{
+  "raw_images_found": 496,
+  "valid_images": 496,
+  "corrupted_images": [],
+  "duplicate_images": [],
+  "splits": {
+    "train": 338,
+    "val": 60,
+    "test": 98
+  },
+  "class_distribution": {
+    "Vada Pav": 25,
+    "Pav Bhaji": 25,
+    "Misal Pav": 25,
+    "Pani Puri": 25,
+    "Bhel Puri": 25,
+    "Sev Puri": 23,
+    "Dabeli": 23,
+    "Samosa": 25,
+    "Kachori": 25,
+    "Dosa": 25,
+    "Idli": 25,
+    "Medu Vada": 25,
+    "Poha": 25,
+    "Upma": 25,
+    "Chole Bhature": 25,
+    "Aloo Tikki": 25,
+    "Frankie": 25,
+    "Sandwich": 25,
+    "Jalebi": 25,
+    "Other / Unknown Food": 25
+  },
+  "imbalance_ratio": 1.09,
+  "severe_imbalance_warning": false,
+  "random_seed": 42
+}

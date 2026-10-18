@@ -1,0 +1,39 @@
+{
+  "models": {
+    "mobilenet_v3_large": {
+      "status": "Not evaluated (Untrained classification head)",
+      "accuracy": "Not evaluated",
+      "macro_f1": "Not evaluated",
+      "macro_precision": "Not evaluated",
+      "macro_recall": "Not evaluated",
+      "latency_ms": 13.54,
+      "throughput_fps": 73.85,
+      "params_millions": 4.23,
+      "model_size_mb": 16.13
+    },
+    "efficientnet_b0": {
+      "status": "Not evaluated (Untrained classification head)",
+      "accuracy": "Not evaluated",
+      "macro_f1": "Not evaluated",
+      "macro_precision": "Not evaluated",
+      "macro_recall": "Not evaluated",
+      "latency_ms": 21.15,
+      "throughput_fps": 47.29,
+      "params_millions": 4.03,
+      "model_size_mb": 15.39
+    },
+    "clip": {
+      "status": "Not evaluated (Requires test dataset)",
+      "accuracy": "Not evaluated",
+      "macro_f1": "Not evaluated",
+      "macro_precision": "Not evaluated",
+      "macro_recall": "Not evaluated",
+      "latency_ms": 78.4,
+      "throughput_fps": 12.8,
+      "params_millions": 151.28,
+      "model_size_mb": 577.1
+    }
+  },
+  "comparison_date": "2026-10-16",
+  "device": "cpu"
+}

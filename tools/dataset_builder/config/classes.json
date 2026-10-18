@@ -1,0 +1,183 @@
+[
+  {
+    "folder": "00_vada_pav",
+    "class_name": "Vada Pav",
+    "search_queries": [
+      "vada pav Indian food",
+      "vada pao Mumbai street food"
+    ],
+    "class_index": 0
+  },
+  {
+    "folder": "01_pav_bhaji",
+    "class_name": "Pav Bhaji",
+    "search_queries": [
+      "pav bhaji Indian food",
+      "Mumbai pav bhaji plate"
+    ],
+    "class_index": 1
+  },
+  {
+    "folder": "02_misal_pav",
+    "class_name": "Misal Pav",
+    "search_queries": [
+      "misal pav Maharashtrian food",
+      "misal pav bowl bread"
+    ],
+    "class_index": 2
+  },
+  {
+    "folder": "03_pani_puri",
+    "class_name": "Pani Puri",
+    "search_queries": [
+      "pani puri golgappa Indian street food",
+      "panipuri plate"
+    ],
+    "class_index": 3
+  },
+  {
+    "folder": "04_bhel_puri",
+    "class_name": "Bhel Puri",
+    "search_queries": [
+      "bhel puri Mumbai chaat",
+      "bhel puri Indian food"
+    ],
+    "class_index": 4
+  },
+  {
+    "folder": "05_sev_puri",
+    "class_name": "Sev Puri",
+    "search_queries": [
+      "sev puri Mumbai chaat",
+      "sev puri Indian street food"
+    ],
+    "class_index": 5
+  },
+  {
+    "folder": "06_dabeli",
+    "class_name": "Dabeli",
+    "search_queries": [
+      "Kutchi dabeli Indian food",
+      "dabeli pav snack"
+    ],
+    "class_index": 6
+  },
+  {
+    "folder": "07_samosa",
+    "class_name": "Samosa",
+    "search_queries": [
+      "Indian samosa snack",
+      "samosas plate Indian food"
+    ],
+    "class_index": 7
+  },
+  {
+    "folder": "08_kachori",
+    "class_name": "Kachori",
+    "search_queries": [
+      "Indian kachori snack",
+      "kachori Indian food plate"
+    ],
+    "class_index": 8
+  },
+  {
+    "folder": "09_dosa",
+    "class_name": "Dosa",
+    "search_queries": [
+      "plain dosa Indian food",
+      "masala dosa South Indian food"
+    ],
+    "class_index": 9
+  },
+  {
+    "folder": "10_idli",
+    "class_name": "Idli",
+    "search_queries": [
+      "idli South Indian food",
+      "idli sambar plate"
+    ],
+    "class_index": 10
+  },
+  {
+    "folder": "11_medu_vada",
+    "class_name": "Medu Vada",
+    "search_queries": [
+      "medu vada South Indian food",
+      "medu vada sambar"
+    ],
+    "class_index": 11
+  },
+  {
+    "folder": "12_poha",
+    "class_name": "Poha",
+    "search_queries": [
+      "Indian poha breakfast",
+      "kanda poha Maharashtrian food"
+    ],
+    "class_index": 12
+  },
+  {
+    "folder": "13_upma",
+    "class_name": "Upma",
+    "search_queries": [
+      "upma Indian breakfast",
+      "rava upma food"
+    ],
+    "class_index": 13
+  },
+  {
+    "folder": "14_chole_bhature",
+    "class_name": "Chole Bhature",
+    "search_queries": [
+      "chole bhature Indian food",
+      "chole bhature plate"
+    ],
+    "class_index": 14
+  },
+  {
+    "folder": "15_aloo_tikki",
+    "class_name": "Aloo Tikki",
+    "search_queries": [
+      "aloo tikki Indian street food",
+      "potato tikki chaat"
+    ],
+    "class_index": 15
+  },
+  {
+    "folder": "16_frankie",
+    "class_name": "Frankie",
+    "search_queries": [
+      "Mumbai frankie roll Indian street food",
+      "Indian frankie wrap"
+    ],
+    "class_index": 16
+  },
+  {
+    "folder": "17_sandwich",
+    "class_name": "Sandwich",
+    "search_queries": [
+      "Bombay vegetable sandwich Indian street food",
+      "Mumbai chutney sandwich"
+    ],
+    "class_index": 17
+  },
+  {
+    "folder": "18_jalebi",
+    "class_name": "Jalebi",
+    "search_queries": [
+      "jalebi Indian sweet",
+      "jalebi sugar syrup Indian food"
+    ],
+    "class_index": 18
+  },
+  {
+    "folder": "19_other_unknown_food",
+    "class_name": "Other / Unknown Food",
+    "search_queries": [
+      "wooden chair object",
+      "bicycle street object",
+      "household objects"
+    ],
+    "class_index": 19
+  }
+]
